@@ -1,0 +1,28 @@
+{
+  "name": "create-nue",
+  "type": "module",
+  "version": "0.1.4",
+  "homepage": "https://github.com/nuejs/create-nue",
+  "description": "A recommended way to start a Nue project",
+  "repository": {
+    "url": "https://github.com/nuejs/create-nue.git",
+    "type": "git"
+  },
+  "bin": {
+    "create-nue": "./scripts/init.js"
+  },
+  "scripts": {
+    "start": "bun scripts/cli.js start",
+    "minify": "bun scripts/cli.js minify",
+    "render": "bun scripts/cli.js render",
+    "compile": "bun scripts/cli.js compile",
+    "serve": "bun scripts/cli.js serve"
+  },
+  "dependencies": {
+    "nuejs-core": "^0.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.3"
+  }
+}
